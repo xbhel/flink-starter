@@ -1,6 +1,5 @@
 package cn.xbhel.chapter1;
 
-import cn.xbhel.chapter1.StatefulFlatMap;
 import org.apache.flink.api.common.state.ValueState;
 import org.apache.flink.api.common.state.ValueStateDescriptor;
 import org.apache.flink.api.common.typeinfo.Types;

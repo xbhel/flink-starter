@@ -1,6 +1,5 @@
 package cn.xbhel.chapter1;
 
-import cn.xbhel.chapter1.MyProcessFunction;
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.streaming.api.operators.KeyedProcessOperator;
 import org.apache.flink.streaming.runtime.streamrecord.StreamRecord;

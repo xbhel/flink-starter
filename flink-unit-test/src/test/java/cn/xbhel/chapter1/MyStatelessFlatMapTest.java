@@ -1,6 +1,5 @@
 package cn.xbhel.chapter1;
 
-import cn.xbhel.chapter1.MyStatelessFlatMap;
 import org.apache.flink.api.common.functions.util.ListCollector;
 import org.assertj.core.util.Lists;
 import org.junit.jupiter.api.Test;

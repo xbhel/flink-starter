@@ -1,6 +1,5 @@
 package cn.xbhel.chapter1;
 
-import cn.xbhel.chapter1.MyStatelessMap;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

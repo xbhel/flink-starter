@@ -1,4 +1,4 @@
-package cn.xbhel.chapter1;
+package cn.xbhel.ut1;
 
 import org.apache.flink.api.common.functions.util.ListCollector;
 import org.assertj.core.util.Lists;

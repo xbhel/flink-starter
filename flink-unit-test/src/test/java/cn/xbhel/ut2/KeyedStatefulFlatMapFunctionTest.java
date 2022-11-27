@@ -25,6 +25,7 @@ class KeyedStatefulFlatMapFunctionTest {
         // 实例化 UDF
         keyedStatefulFlatMapFunction = new KeyedStatefulFlatMapFunction();
         // 将 UDF 包装到相应的 TestHarness 中
+        // 除了传递 UDF 实例，还需要 KeySelector, Key 的类型
         testHarness = new KeyedOneInputStreamOperatorTestHarness<>(
                 new StreamFlatMap<>(keyedStatefulFlatMapFunction), (el) -> "1", Types.STRING);
         // 打开 testHarness(也会调用 RichFunctions 的 open 方法)
